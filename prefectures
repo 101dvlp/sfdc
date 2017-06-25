@@ -1,0 +1,143 @@
+        // 都道府県と緯度経度を格納するMap
+        Map<String, Location> prefs = new Map<String, Location>();
+        // 北海道
+        Location hokkaido = Location.newInstance(43.063968, 141.347899);
+        prefs.put('北海道', hokkaido);
+        // 青森県
+        Location aomori = Location.newInstance(40.824623, 140.740593);
+        prefs.put('青森県', aomori);
+        // 岩手県
+        Location iwate = Location.newInstance(39.703531, 141.152667);
+        prefs.put('岩手県', iwate);
+        // 宮城県
+        Location miyagi = Location.newInstance(38.268839, 140.872103);
+        prefs.put('宮城県', miyagi);
+        // 秋田県
+        Location akita = Location.newInstance(39.718600, 140.102334);
+        prefs.put('秋田県', akita);
+        // 山形県
+        Location yamagata = Location.newInstance(38.240437, 140.363634);
+        prefs.put('山形県', yamagata);
+        // 福島県
+        Location fukushima = Location.newInstance(37.750299, 140.467521);
+        prefs.put('福島県', fukushima);
+        // 茨城県
+        Location ibaraki = Location.newInstance(36.341813, 140.446793);
+        prefs.put('茨城県', ibaraki);
+        // 栃木県
+        Location tochigi = Location.newInstance(36.565725, 139.883565);
+        prefs.put('栃木県', tochigi);
+        // 群馬県
+        Location gunma = Location.newInstance(36.391208, 139.060156);
+        prefs.put('群馬県', gunma);
+        // 埼玉県
+        Location saitama = Location.newInstance(35.857428, 139.648933);
+        prefs.put('埼玉県', saitama);
+        // 千葉県
+        Location chiba = Location.newInstance(35.605058, 140.123308);
+        prefs.put('千葉県', chiba);
+        // 東京都
+        Location tokyo = Location.newInstance(35.689521, 139.691704);
+        prefs.put('東京都', tokyo);
+        // 神奈川県
+        Location kanagawa = Location.newInstance(35.447753, 139.642514);
+        prefs.put('神奈川県', kanagawa);
+        // 新潟県
+        Location niigata = Location.newInstance(37.902418, 139.023221);
+        prefs.put('新潟県', niigata);
+        // 富山県
+        Location toyama = Location.newInstance(36.695290, 137.211338);
+        prefs.put('富山県', toyama);
+        // 石川県
+        Location ishikawa = Location.newInstance(36.594682, 136.625573);
+        prefs.put('石川県', ishikawa);
+        // 福井県
+        Location fukui = Location.newInstance(36.065219, 136.221642);
+        prefs.put('福井県', fukui);
+        // 山梨県
+        Location yamanashi = Location.newInstance(35.664158, 138.568449);
+        prefs.put('山梨県', yamanashi);
+        // 長野県
+        Location nagano = Location.newInstance(36.651289, 138.181224);
+        prefs.put('長野県', nagano);
+        // 岐阜県
+        Location gifu = Location.newInstance(35.391227, 136.722291);
+        prefs.put('岐阜県', gifu);
+        // 静岡県
+        Location shizuoka = Location.newInstance(34.976978, 138.383054);
+        prefs.put('静岡県', shizuoka);
+        // 愛知県
+        Location aichi = Location.newInstance(35.180188, 136.906565);
+        prefs.put('愛知県', aichi);
+        // 三重県
+        Location mie = Location.newInstance(34.730283, 136.508591);
+        prefs.put('三重県', mie);
+        // 滋賀県
+        Location shiga = Location.newInstance(35.004531, 135.86859);
+        prefs.put('滋賀県', shiga);
+        // 京都府
+        Location kyoto = Location.newInstance(35.021004, 135.755608);
+        prefs.put('京都府', kyoto);
+        // 大阪府
+        Location osaka = Location.newInstance(34.686316, 135.519711);
+        prefs.put('大阪府', osaka);
+        // 兵庫県
+        Location hyogo = Location.newInstance(34.691279, 135.183025);
+        prefs.put('兵庫県', hyogo);
+        // 奈良県
+        Location nara = Location.newInstance(34.685333, 135.832744);
+        prefs.put('奈良県', nara);
+        // 和歌山県
+        Location wakayama = Location.newInstance(34.226034, 135.167506);
+        prefs.put('和歌山県', wakayama);
+        // 鳥取県
+        Location tottori = Location.newInstance(35.503869, 134.237672);
+        prefs.put('鳥取県', tottori);
+        // 島根県
+        Location shimane = Location.newInstance(35.472297, 133.050499);
+        prefs.put('島根県', shimane);
+        // 岡山県
+        Location okayama = Location.newInstance(34.661772, 133.934675);
+        prefs.put('岡山県', okayama);
+        // 広島県
+        Location hiroshima = Location.newInstance(34.396560, 132.459622);
+        prefs.put('広島県', hiroshima);
+        // 山口県
+        Location yamaguchi = Location.newInstance(34.186121, 131.470500);
+        prefs.put('山口県', yamaguchi);
+        // 徳島県
+        Location tokushima = Location.newInstance(34.065770, 134.559303);
+        prefs.put('徳島県', tokushima);
+        // 香川県
+        Location kagawa = Location.newInstance(34.340149, 134.043444);
+        prefs.put('香川県', kagawa);
+        // 愛媛県
+        Location ehime = Location.newInstance(33.84166, 132.765362);
+        prefs.put('愛媛県', ehime);
+        // 高知県
+        Location kochi = Location.newInstance(33.559705, 133.53108);
+        prefs.put('高知県', kochi);
+        // 福岡県
+        Location fukuoka = Location.newInstance(33.606785, 130.418314);
+        prefs.put('福岡県', fukuoka);
+        // 佐賀県
+        Location saga = Location.newInstance(33.249367, 130.298822);
+        prefs.put('佐賀県', saga);
+        // 長崎県
+        Location nagasaki = Location.newInstance(32.744839, 129.873756);
+        prefs.put('長崎県', nagasaki);
+        // 熊本県
+        Location kumamoto = Location.newInstance(32.789828, 130.741667);
+        prefs.put('熊本県', kumamoto);
+        // 大分県
+        Location oita = Location.newInstance(33.238194, 131.612591);
+        prefs.put('大分県', oita);
+        // 宮崎県
+        Location miyazaki = Location.newInstance(31.911090, 131.423855);
+        prefs.put('宮崎県', miyazaki);
+        // 鹿児島県
+        Location kagoshima = Location.newInstance(31.560148, 130.557981);
+        prefs.put('鹿児島県', kagoshima);
+        // 沖縄県
+        Location okinawa = Location.newInstance(26.212401, 127.680932);
+        prefs.put('沖縄県', okinawa);
